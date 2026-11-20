@@ -19,4 +19,3 @@ print(df["id_paciente"].duplicated().sum())
 # 4. Qual é o tempo médio de permanência hospitalar?
 
 print(df["tempo_internacao"].mean())
-
