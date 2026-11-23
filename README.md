@@ -30,6 +30,7 @@ Mais informações:
 
 Obtenção de informações registradas na base de dados, criação de gráficos e outros visuais e manipulação de indicadores, utilizando as bibliotecas Pandas e Matplotlib.
 
+Mais informações:
 - [Notebook de análise exploratória](notebooks/analise_exploratoria.ipynb)
 - [Scripts do projeto](src/analysis)
 
@@ -42,7 +43,7 @@ Realização de consultas SQL utilizando funções (COUNT, AVG, MAX, COALESCE, R
 - Tempo médio de internação;
 - Taxa geral de readmissão;
 - Histórico hospitalar de um paciente.
-
+Mais informações:
 - [Consultas SQL realizadas com auxílio das bibliotecas Pandas e SQLAlchemy](sql/queries.py)
 
 ### 4. Modelagem de dados
