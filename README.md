@@ -43,6 +43,7 @@ Realização de consultas SQL utilizando funções (COUNT, AVG, MAX, COALESCE, R
 - Tempo médio de internação;
 - Taxa geral de readmissão;
 - Histórico hospitalar de um paciente.
+
 Mais informações:
 - [Consultas SQL realizadas com auxílio das bibliotecas Pandas e SQLAlchemy](sql/queries.py)
 
