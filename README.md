@@ -35,7 +35,15 @@ Obtenção de informações registradas na base de dados, criação de gráficos
 
 ### 3. Consultas SQL
 
-<!-- Descrever as consultas e perguntas de negócio respondidas. -->
+Realização de consultas SQL utilizando funções (COUNT, AVG, MAX, COALESCE, ROUND, WHERE, GROUP BY, ORDER BY, LIMIT, FILTER), CTEs, sub-consultas para encontrar informações como:
+
+- Quantidade total de internações;
+- Quantidade de pacientes;
+- Tempo médio de internação;
+- Taxa geral de readmissão;
+- Histórico hospitalar de um paciente.
+
+- [Consultas SQL realizadas com auxílio das bibliotecas Pandas e SQLAlchemy](sql/queries.py)
 
 ### 4. Modelagem de dados
 
