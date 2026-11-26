@@ -23,6 +23,7 @@ Extração, transformação e limpeza do conjunto de dados, incluindo o tratamen
 Após a preparação, os dados foram carregados em uma tabela denominada `readmissoes_diabetes`, armazenada no banco de dados `inteligencia_hospitalar`, utilizando PostgreSQL.
 
 Mais informações:
+
 - [Notebook de análise exploratória](notebooks/analise_exploratoria.ipynb)
 - [Scripts do projeto](src/)
 
@@ -31,6 +32,7 @@ Mais informações:
 Obtenção de informações registradas na base de dados, criação de gráficos e outros visuais e manipulação de indicadores, utilizando as bibliotecas Pandas e Matplotlib.
 
 Mais informações:
+
 - [Notebook de análise exploratória](notebooks/analise_exploratoria.ipynb)
 - [Scripts do projeto](src/analysis)
 
@@ -45,11 +47,15 @@ Realização de consultas SQL utilizando funções (COUNT, AVG, MAX, COALESCE, R
 - Histórico hospitalar de um paciente.
 
 Mais informações:
+
 - [Consultas SQL realizadas com auxílio das bibliotecas Pandas e SQLAlchemy](sql/queries.py)
 
 ### 4. Modelagem de dados
 
-<!-- Descrever a modelagem relacional e dimensional. -->
+Foram realizadas dois tipos de modelagem de banco de dados: relacional e dimensional.
+
+- Relacional: Estruturação de tabelas com chaves primárias e estrangeiras, estabelecendo relacionamentos entre as entidades. O modelo armazena informações sobre pacientes, medições, exames, medicamentos e internações. O diagrama e o modelo físico podem ser consultados em [Modelo relacional](modelagem/relacional/).
+- Dimensional: Desenvolvimento de um modelo baseado em Star Schema, composto por tabelas fato, que representam os processos analisados (administração de medicamentos, exames e internações), e tabelas dimensão, que armazenam características descritivas dos pacientes e dos processos. A modelagem pode ser consultada em [Modelo Dimensional](modelagem/dimensional/).
 
 ### 5. Pipeline de dados
 
