@@ -1,6 +1,6 @@
-from src.extract import extract
-from src.transform import transform
-from src.load import load
+from extract import extract
+from transform import transform
+from load import load
 
 if __name__ == "__main__":
     file = "./data/raw/diabetic_data.csv"
